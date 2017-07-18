@@ -20011,7 +20011,9 @@
             ""
         ], 
         "@throws": [], 
-        "throws": []
+        "throws": [
+            "NoSuchMethodException"
+        ]
     }, 
     "android.media.audiofx.Visualizer.setCaptureSize(int)": {
         "args": [
@@ -52248,7 +52250,9 @@
             ""
         ], 
         "@throws": [], 
-        "throws": []
+        "throws": [
+            "NoSuchMethodException"
+        ]
     }, 
     "android.content.Loader.onAbandon()": {
         "args": [

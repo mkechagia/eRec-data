@@ -10262,7 +10262,9 @@
     "android.opengl.GLES20.glUniformMatrix4fv(int, int, boolean, java.nio.FloatBuffer)": [], 
     "android.text.method.TextKeyListener.onSpanRemoved(Spannable, java.lang.Object, int, int)": [], 
     "android.util.ListScenario.setLongClickedPosition(int)": [], 
-    "android.test.suitebuilder.annotation.HasClassAnnotationTest.testShouldTellIfParentClassHasSpecifiedClassification()": [], 
+    "android.test.suitebuilder.annotation.HasClassAnnotationTest.testShouldTellIfParentClassHasSpecifiedClassification()": [
+        "NoSuchMethodException"
+    ], 
     "android.widget.focus.HorizontalFocusSearch.getMidShort2Bottom()": [], 
     "android.bluetooth.BluetoothStressTest.testConnectHeadset()": [], 
     "android.view.ViewGroup.resetResolvedTextDirection()": [], 
@@ -23175,7 +23177,9 @@
         "Exception"
     ], 
     "android.test.suitebuilder.TestGrouping.hashCode()": [], 
-    "android.test.suitebuilder.annotation.HasClassAnnotationTest.testShouldTellIfParentClassDoesNotHaveSpecifiedClassification()": [], 
+    "android.test.suitebuilder.annotation.HasClassAnnotationTest.testShouldTellIfParentClassDoesNotHaveSpecifiedClassification()": [
+        "NoSuchMethodException"
+    ], 
     "android.core.RequestAPITest.setUp()": [
         "Exception"
     ], 
@@ -41938,7 +41942,12 @@
     "android.view.WindowInsets.getSystemWindowInsetLeft()": [], 
     "android.support.v17.leanback.widget.HorizontalGridView.setRowHeight(int)": [], 
     "android.support.test.internal.runner.TestRequestBuilderTest.testSuppressed2()": [], 
-    "android.support.v4.widget.ScrollerCompatTestBase.createScroller(Interpolator)": [], 
+    "android.support.v4.widget.ScrollerCompatTestBase.createScroller(Interpolator)": [
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "InstantiationException", 
+        "InvocationTargetException"
+    ], 
     "android.renderscript.Double4.addMultiple(Double4, double)": [], 
     "android.support.v7.widget.RecyclerView.instantScrollToPosition(int)": [], 
     "android.hardware.display.DisplayManagerInternal.hashCode()": [], 
@@ -54973,7 +54982,11 @@
     "android.support.v7.internal.view.menu.MenuWrapperFactory.wrapSupportMenuItem(Context, SupportMenuItem)": [], 
     "android.view.View.onScrollChange(View, int, int, int, int)": [], 
     "android.graphics.drawable.StateListDrawable.setConstantState(DrawableContainerState)": [], 
-    "android.content.res.ConfigurationBoundResourceCacheTest.testVoidConfigChange()": [], 
+    "android.content.res.ConfigurationBoundResourceCacheTest.testVoidConfigChange()": [
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "InvocationTargetException"
+    ], 
     "android.support.v4.media.MediaDescriptionCompat.getSubtitle()": [], 
     "android.telephony.SubscriptionInfo.getDisplayName()": [], 
     "android.support.v7.util.SortedListAdapterCallbackWrapperTest.testMove()": [
@@ -55197,7 +55210,11 @@
     "android.provider.Telephony.addMessage(int, ContentResolver, java.lang.String, java.lang.String, java.lang.String, java.lang.Long)": [], 
     "android.support.v17.leanback.widget.ImageCardView.onAttachedToWindow()": [], 
     "android.telecom.Conference.getConnectionCapabilities()": [], 
-    "android.content.res.ConfigurationBoundResourceCacheTest.testEffectiveConfigChange()": [], 
+    "android.content.res.ConfigurationBoundResourceCacheTest.testEffectiveConfigChange()": [
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "InvocationTargetException"
+    ], 
     "android.support.v7.graphics.drawable.DrawableWrapper.getPadding(Rect)": [], 
     "android.telephony.ServiceState.setDataOperatorAlphaLong(java.lang.String)": [], 
     "android.media.AudioFocusInfo.getPackageName()": [], 
@@ -55372,7 +55389,11 @@
     "android.support.v17.leanback.app.DetailsSupportFragment.getOnItemViewClickedListener()": [], 
     "android.telephony.ServiceState.setVoiceRoaming(boolean)": [], 
     "android.telephony.TelephonyManager.setSimCountryIsoForPhone(int, java.lang.String)": [], 
-    "android.content.res.ConfigurationBoundResourceCacheTest.testConfigChangeMultipleThemes()": [], 
+    "android.content.res.ConfigurationBoundResourceCacheTest.testConfigChangeMultipleThemes()": [
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "InvocationTargetException"
+    ], 
     "android.support.v17.leanback.app.MediaControllerGlue.getSupportedActions()": [], 
     "android.support.v17.leanback.app.PlaybackOverlaySupportFragment.setAdapter(ObjectAdapter)": [], 
     "android.support.design.widget.FloatingActionButton.setBackgroundTintList(ColorStateList)": [], 
@@ -55619,7 +55640,11 @@
     "android.support.v17.leanback.app.BrowseSupportFragment.isHeadersTransitionOnBackEnabled()": [], 
     "android.util.TypedValue.getComplexUnit()": [], 
     "android.graphics.drawable.LevelListDrawable.setConstantState(DrawableContainerState)": [], 
-    "android.content.res.ConfigurationBoundResourceCacheTest.testConfigChangeMultipleResources()": [], 
+    "android.content.res.ConfigurationBoundResourceCacheTest.testConfigChangeMultipleResources()": [
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "InvocationTargetException"
+    ], 
     "android.support.v17.leanback.app.DetailsSupportFragment.onStart()": [], 
     "android.support.v4.media.session.MediaSessionCompat.onPlayFromMediaId(java.lang.String, Bundle)": [], 
     "android.support.v17.leanback.app.PlaybackControlGlue.getFragment()": [], 
@@ -58791,7 +58816,9 @@
     "android.support.design.widget.TabLayout.getTabTextColors()": [], 
     "android.text.style.StyleSpan.writeToParcelInternal(Parcel, int)": [], 
     "android.support.design.widget.TextInputLayout.isHintAnimationEnabled()": [], 
-    "android.databinding.testapp.BaseDataBinderTest.assertMethod(java.lang.Class, java.lang.String)": [], 
+    "android.databinding.testapp.BaseDataBinderTest.assertMethod(java.lang.Class, java.lang.String)": [
+        "NoSuchMethodException"
+    ], 
     "android.support.v4.app.FragmentController.doLoaderDestroy()": [], 
     "android.app.FragmentController.dispatchOptionsMenuClosed(Menu)": [], 
     "android.databinding.testapp.adapter.MultiArgTestAdapter.setClass2(TextView, MultiBindingClass2)": [], 
@@ -64115,7 +64142,11 @@
         "InterruptedException"
     ], 
     "android.support.v7.app.AlertDialog.create()": [], 
-    "android.support.v7.widget.BaseRecyclerViewInstrumentationTest.enableAccessibility()": [], 
+    "android.support.v7.widget.BaseRecyclerViewInstrumentationTest.enableAccessibility()": [
+        "InvocationTargetException", 
+        "NoSuchMethodException", 
+        "IllegalAccessException"
+    ], 
     "android.app.NotificationTests.sleepIfYouCan(int)": [], 
     "android.databinding.tool.util.ParserHelper.stripExtension(java.lang.String)": [], 
     "android.databinding.tool.util.GenerationalClassUtil.writeIntermediateFile(javax.annotation.processing.ProcessingEnvironment, java.lang.String, java.lang.String, java.io.Serializable)": [], 

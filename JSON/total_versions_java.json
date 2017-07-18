@@ -3004,7 +3004,9 @@
     ], 
     "java.security.cert.TrustAnchor.getCAPublicKey()": [], 
     "java.beans.PropertyEditorSupport.getAsText()": [], 
-    "java.lang.Thread.destroy()": [], 
+    "java.lang.Thread.destroy()": [
+        "NoSuchMethodError"
+    ], 
     "java.util.Currency.getInstance(Locale)": [
         "IllegalArgumentException", 
         "NullPointerException"
@@ -5191,7 +5193,12 @@
     ], 
     "java.net.SecureCacheResponse.getCipherSuite()": [], 
     "java.awt.Component.transferFocusBackward()": [], 
-    "java.lang.invoke.MethodHandles.findVirtual(Class, String, MethodType)": [], 
+    "java.lang.invoke.MethodHandles.findVirtual(Class, String, MethodType)": [
+        "SecurityException", 
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "NullPointerException"
+    ], 
     "java.security.DigestInputStream.on(boolean)": [], 
     "java.sql.DatabaseMetaData.getSuperTables(String, String, String)": [
         "SQLException"
@@ -5934,7 +5941,12 @@
     ], 
     "java.awt.Component.getFocusListeners()": [], 
     "java.awt.image.BufferedImage.getRGB(int, int)": [], 
-    "java.lang.invoke.MethodHandles.findSpecial(Class, String, MethodType, Class)": [], 
+    "java.lang.invoke.MethodHandles.findSpecial(Class, String, MethodType, Class)": [
+        "SecurityException", 
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "NullPointerException"
+    ], 
     "java.lang.management.ThreadMXBean.getThreadCount()": [], 
     "java.lang.Short.parseShort(String)": [
         "NumberFormatException"
@@ -9008,7 +9020,12 @@
         "ParseException"
     ], 
     "java.security.MessageDigest.update(byte)": [], 
-    "java.lang.invoke.MethodHandles.bind(Object, String, MethodType)": [], 
+    "java.lang.invoke.MethodHandles.bind(Object, String, MethodType)": [
+        "SecurityException", 
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "NullPointerException"
+    ], 
     "java.nio.channels.SelectableChannel.configureBlocking(boolean)": [
         "IllegalBlockingModeException", 
         "ClosedChannelException", 
@@ -10739,7 +10756,12 @@
     "java.util.concurrent.locks.AbstractQueuedLongSynchronizer.hasContended()": [], 
     "java.util.Arrays.hashCode(Object[])": [], 
     "java.lang.annotation.Annotation.toString()": [], 
-    "java.lang.invoke.MethodHandles.findConstructor(Class, MethodType)": [], 
+    "java.lang.invoke.MethodHandles.findConstructor(Class, MethodType)": [
+        "SecurityException", 
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "NullPointerException"
+    ], 
     "java.util.Objects.requireNonNull(T, String)": [
         "NullPointerException"
     ], 
@@ -11605,7 +11627,10 @@
     "java.io.RandomAccessFile.close()": [
         "IOException"
     ], 
-    "java.lang.Class.getConstructor(Class[])": [], 
+    "java.lang.Class.getConstructor(Class[])": [
+        "NoSuchMethodException", 
+        "SecurityException"
+    ], 
     "java.io.PrintStream.print(Object)": [], 
     "java.awt.FontMetrics.getStringBounds(String, Graphics)": [], 
     "java.awt.KeyboardFocusManager.getVetoableChangeListeners()": [], 
@@ -12356,7 +12381,11 @@
     "java.sql.DatabaseMetaData.allProceduresAreCallable()": [
         "SQLException"
     ], 
-    "java.lang.Class.getMethod(String, Class[])": [], 
+    "java.lang.Class.getMethod(String, Class[])": [
+        "NoSuchMethodException", 
+        "SecurityException", 
+        "NullPointerException"
+    ], 
     "java.util.Arrays.fill(Object[], Object)": [
         "ArrayStoreException"
     ], 
@@ -12971,7 +13000,11 @@
     "java.awt.BorderLayout.minimumLayoutSize(Container)": [], 
     "java.net.IDN.toUnicode(String)": [], 
     "java.util.Calendar.getFirstDayOfWeek()": [], 
-    "java.lang.Class.getDeclaredMethod(String, Class[])": [], 
+    "java.lang.Class.getDeclaredMethod(String, Class[])": [
+        "NoSuchMethodException", 
+        "SecurityException", 
+        "NullPointerException"
+    ], 
     "java.awt.MenuComponent.selectAllAccessibleSelection()": [], 
     "java.awt.image.PixelGrabber.imageComplete(int)": [], 
     "java.awt.datatransfer.Clipboard.isDataFlavorAvailable(DataFlavor)": [
@@ -13087,7 +13120,12 @@
     "java.util.zip.InflaterInputStream.fill()": [
         "IOException"
     ], 
-    "java.lang.invoke.MethodHandles.findStatic(Class, String, MethodType)": [], 
+    "java.lang.invoke.MethodHandles.findStatic(Class, String, MethodType)": [
+        "SecurityException", 
+        "IllegalAccessException", 
+        "NoSuchMethodException", 
+        "NullPointerException"
+    ], 
     "java.io.PipedInputStream.read(byte[], int, int)": [
         "IOException", 
         "NullPointerException", 
@@ -13260,7 +13298,10 @@
     "java.net.HttpURLConnection.usingProxy()": [], 
     "java.awt.geom.Path2D.append(PathIterator, boolean)": [], 
     "java.awt.image.SinglePixelPackedSampleModel.setPixel(int, int, int[], DataBuffer)": [], 
-    "java.lang.Class.getDeclaredConstructor(Class[])": [], 
+    "java.lang.Class.getDeclaredConstructor(Class[])": [
+        "NoSuchMethodException", 
+        "SecurityException"
+    ], 
     "java.awt.geom.QuadCurve2D.getPathIterator(AffineTransform)": [], 
     "java.util.prefs.AbstractPreferences.get(String, String)": [
         "IllegalStateException", 
@@ -19171,7 +19212,10 @@
     "java.awt.image.ColorModel.getComponents(int, int[], int)": [
         "UnsupportedOperationException"
     ], 
-    "java.lang.invoke.MethodHandle.invokeExact(Object[])": [], 
+    "java.lang.invoke.MethodHandle.invokeExact(Object[])": [
+        "Throwable", 
+        "WrongMethodTypeException"
+    ], 
     "java.io.Writer.close()": [
         "IOException"
     ], 
@@ -19910,7 +19954,11 @@
         "NullPointerException"
     ], 
     "java.security.AccessControlContext.equals(Object)": [], 
-    "java.lang.invoke.MethodHandle.invoke(Object[])": [], 
+    "java.lang.invoke.MethodHandle.invoke(Object[])": [
+        "Throwable", 
+        "ClassCastException", 
+        "WrongMethodTypeException"
+    ], 
     "java.lang.Integer.reverse(int)": [], 
     "java.util.TreeMap.entrySet()": [], 
     "java.awt.Window.postEvent(Event)": [], 

@@ -18068,7 +18068,9 @@
         "args": [
             ""
         ], 
-        "@throws": [], 
+        "@throws": [
+            "NoSuchMethodError"
+        ], 
         "throws": []
     }, 
     "java.time.chrono.Chronology.equals(Object)": {
@@ -30480,8 +30482,16 @@
             "String", 
             "MethodType"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException", 
+            "SecurityException", 
+            "NullPointerException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException"
+        ]
     }, 
     "java.util.Spliterators.spliterator(OfDouble, long, int)": {
         "args": [
@@ -34854,8 +34864,16 @@
             "MethodType", 
             "Class"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException", 
+            "SecurityException", 
+            "NullPointerException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException"
+        ]
     }, 
     "java.time.OffsetDateTime.getSecond()": {
         "args": [
@@ -45379,8 +45397,15 @@
             "String", 
             "Class[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "NullPointerException", 
+            "SecurityException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ]
     }, 
     "java.util.logging.LogRecord.getParameters()": {
         "args": [
@@ -52891,8 +52916,16 @@
             "String", 
             "MethodType"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException", 
+            "SecurityException", 
+            "NullPointerException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException"
+        ]
     }, 
     "java.nio.channels.SelectableChannel.configureBlocking(boolean)": {
         "Abstract": [
@@ -62805,8 +62838,16 @@
             "Class", 
             "MethodType"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException", 
+            "SecurityException", 
+            "NullPointerException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException"
+        ]
     }, 
     "java.util.Objects.requireNonNull(T, String)": {
         "args": [
@@ -68051,8 +68092,14 @@
         "args": [
             "Class[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ]
     }, 
     "java.io.PrintStream.print(Object)": {
         "args": [
@@ -75441,8 +75488,15 @@
             "String", 
             "Class[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "NullPointerException", 
+            "SecurityException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ]
     }, 
     "java.awt.MenuComponent.selectAllAccessibleSelection()": {
         "args": [
@@ -76051,8 +76105,16 @@
             "String", 
             "MethodType"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException", 
+            "SecurityException", 
+            "NullPointerException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "IllegalAccessException"
+        ]
     }, 
     "java.io.PipedInputStream.read(byte[], int, int)": {
         "args": [
@@ -76966,8 +77028,14 @@
         "args": [
             "Class[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ], 
+        "throws": [
+            "NoSuchMethodException", 
+            "SecurityException"
+        ]
     }, 
     "java.awt.geom.QuadCurve2D.getPathIterator(AffineTransform)": {
         "args": [
@@ -90776,8 +90844,13 @@
         "args": [
             "Object[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "WrongMethodTypeException", 
+            "Throwable"
+        ], 
+        "throws": [
+            "Throwable"
+        ]
     }, 
     "java.sql.PreparedStatement.setArray(int, Array)": {
         "Abstract": [
@@ -114657,8 +114730,14 @@
         "args": [
             "Object[]"
         ], 
-        "@throws": [], 
-        "throws": []
+        "@throws": [
+            "WrongMethodTypeException", 
+            "ClassCastException", 
+            "Throwable"
+        ], 
+        "throws": [
+            "Throwable"
+        ]
     }, 
     "java.lang.Integer.reverse(int)": {
         "args": [

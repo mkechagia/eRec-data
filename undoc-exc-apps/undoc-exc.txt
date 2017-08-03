@@ -1,1 +1,1 @@
-The files of this folder can be added to the apps folder of the eRec repo. The found undocumented exceptions have been processed and stem from the analysis of the examined apps. 
+The files of this folder can be added to the apps folder of the eRec repo. The found undocumented exceptions have been processed and stem from the analysis of the examined apps. By running the scripts from the eRec projects, the provided undoc exceptions will be processed again.

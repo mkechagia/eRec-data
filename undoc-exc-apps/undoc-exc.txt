@@ -1,0 +1,1 @@
+The files of this folder can be added to the apps folder of the eRec repo. The found undocumented exceptions have been processed and stem from the analysis of the examined apps. 
